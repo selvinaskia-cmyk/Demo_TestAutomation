@@ -5,6 +5,6 @@ def hitung_harga_akhir(total):
         raise ValueError("Total tidak boleh negatif")
 
     if total >= 100000:
-        return total * 0.9
+        return total * 0.8
 
     return total
